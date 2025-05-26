@@ -1,5 +1,5 @@
 import React, { useEffect, useCallback } from 'react';
-// import './GameBoard.css';
+import './GameBoard.css';
 
 const GameBoard = ({ gameState, onMove, playerName }) => {
   const { object, players, gridSize } = gameState;
