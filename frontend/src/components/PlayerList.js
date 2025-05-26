@@ -1,5 +1,5 @@
 import React from 'react';
-import './PlayerList.css';
+// import './PlayerList.css';
 
 const PlayerList = ({ players }) => {
   const playerArray = Object.values(players || {});

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './ConflictNotification.css';
+// import './ConflictNotification.css';
 
 const ConflictNotification = ({ conflict, onClose }) => {
   useEffect(() => {

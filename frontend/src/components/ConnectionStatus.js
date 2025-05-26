@@ -1,5 +1,5 @@
 import React from 'react';
-import './ConnectionStatus.css';
+// import './ConnectionStatus.css';
 
 const ConnectionStatus = ({ isConnected, error }) => {
   return (
