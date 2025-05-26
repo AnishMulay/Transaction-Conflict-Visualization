@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-// import './App.css';
+import './App.css';
 import GameBoard from './components/GameBoard';
 import PlayerList from './components/PlayerList';
 import ConnectionStatus from './components/ConnectionStatus';
