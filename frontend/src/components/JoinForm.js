@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './JoinForm.css';
+import './JoinForm.css';
 
 const JoinForm = ({ onJoin }) => {
   const [playerName, setPlayerName] = useState('');
