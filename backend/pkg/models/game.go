@@ -32,7 +32,7 @@ type Player struct {
 
 // GameState represents the complete state of the game
 type GameState struct {
-	mu         sync.RWMutex
+	Mu         sync.RWMutex
 	Object     *GameObject        `json:"object"`
 	Players    map[string]*Player `json:"players"`
 	Version    int64              `json:"version"`
@@ -58,8 +58,8 @@ func NewGameState(gridSize Position) *GameState {
 
 // GetState returns a thread-safe copy of the current state
 func (gs *GameState) GetState() GameStateSnapshot {
-	gs.mu.RLock()
-	defer gs.mu.RUnlock()
+	gs.Mu.RLock()
+	defer gs.Mu.RUnlock()
 
 	playersSnapshot := make(map[string]*Player)
 	for id, player := range gs.Players {
