@@ -96,7 +96,7 @@ realtime-multiplayer-game/
 │   ├── internal/      # Core game logic and concurrency control
 │   └── pkg/           # Shared models and utilities
 ├── frontend/          # React application
-│   └── src/           # Components, hooks, and utilities             # Additional documentation
+    └── src/           # Components, hooks, and utilities
 ```
 
 ### Contributing
